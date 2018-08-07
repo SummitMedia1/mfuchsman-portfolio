@@ -392,9 +392,9 @@ text-align: center;
 h1#mikeName {
   color: #000;
   clear: both;
-  font-family: HelveticaNeue-Thin, Arial, sans-serif;
+  font-family: Oswald;
   font-size: 70px;
-  font-weight: 400;
+  font-weight: 800;
   margin-top: 20px;
   position: relative;
   z-index: 5;
@@ -409,6 +409,11 @@ img#mike-picture {
   padding: 10px;
   width: 200px;
 }
+
+ #whatAboutMike {
+   font-family: Abel;
+   font-size: 21px;
+} 
 
 .pageContainer {
   max-width: 100%;
