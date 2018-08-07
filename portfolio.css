@@ -1,0 +1,711 @@
+/*@import url('https://fonts.googleapis.com/css?family=Oswald:800|Cinzel:400:700|Abel|Cormorant+Garamond:400i');*/
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* -------------------------------- General Body Styling -------------------------------- */
+
+body {
+  font-family: HelveticaNeue-Thin;
+  font-size: 18px;
+  min-height: 100vh;
+  padding: 0;
+  background: #fff;
+  /* background-image: url('./assets/images/main-no-logo.jpg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+nav {
+height: 30px;
+line-height: 30px;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+    font-size: 14px !important;
+}
+
+.z-depth-0 {
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0);
+}
+
+/* --------------------- Background Images (Parallax) ----------------------------- */
+
+.bgimg-1 {
+  background-image: url('./assets/images/091817-Harley-Davidson.jpg');
+  min-height: 510px;
+  position: relative;
+  opacity: 1.0;
+  background-color: #fff;
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bgimg-2 {
+  background-image: url('atom-screen.png');
+  min-height: 380px;
+  position: relative;
+  opacity: .4;
+  background-color: #fff;
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bgimg-3 {
+  background-image: url('./assets/images/resume_MBF.jpg');
+  background-color: #fff;
+  min-height: 800px;
+  opacity: 1.0;
+  margin-left: auto;
+  margin-right: auto;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bgimg-4 {
+  background-image: url('./assets/images/motion.jpg');
+  background-color: #fff;
+  min-height: 600px;
+  position: relative;
+  opacity: 1.0;
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+
+}
+
+.bgimg-5 {
+  background-image: url('./assets/images/full-stack-logos.jpg');
+  background-color: #fff;
+  min-height: 800px;
+  position: relative;
+  opacity: 1.0;
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+/* --------------------- Navigation Properties ----------------------------- */
+
+.dropdown-content {
+  width: 500px !important;
+}
+
+i.material-icons.right {
+  font-size: 50px;
+}
+  nav i, nav > li > a {
+      position: relative;
+      display: block;
+      padding: 1px 20px;
+      clear: right;
+  }
+
+
+  #nav-anchor a {
+    color: #8f9eb3;
+  }
+
+#nav-anchor a:hover {
+  color: #82bfdd;
+}
+
+#aboutDiv2-Mike.card {
+    margin: 0rem 0 1rem 0;
+}
+
+.card-action a {
+  font-family: Rock Salt;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: .13em;
+  line-height: 1.75;
+}
+
+#cardBlack1,
+#cardBlack2,
+#cardBlack3,
+#cardBlack4,
+#cardBlack5,
+#cardBlack6,
+#cardBlack7,
+#cardBlack8,
+#cardBlack9,
+#cardBlack10,
+#cardBlack11,
+#cardBlack12,
+#cardBlack13,
+#cardBlack14,
+#cardBlack15 {
+  border: 4px solid black !important;
+}
+
+.card-content {
+  color: #fff;
+  letter-spacing: .08em;
+  padding: 0;
+}
+
+#cardContentStyle1,
+#cardContentStyle2,
+#cardContentStyle3,
+#cardContentStyle4,
+#cardContentStyle5,
+#cardContentStyle6,
+#cardContentStyle7,
+#cardContentStyle8,
+#cardContentStyle9,
+#cardContentStyle10,
+#cardContentStyle11,
+#cardContentStyle12,
+#cardContentStyle13,
+#cardContentStyle14,
+#cardContentStyle15 {
+  color: #fff;
+  font-family: Oswald;
+  font-size: 21px;
+  font-weight: 100;
+}
+
+.card-title h4 {
+  color: #fff;
+  font-family: Oswald;
+  margin-left: 45px;
+}
+
+.card-title {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.card-title p {
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: .07em;
+  margin-left: 45px;
+}
+
+
+#card-title-title1,
+#card-title-title2 {
+  color: #fff;
+  font-family: Oswald;
+  margin-left: 15px;
+  margin-top: 0;
+  padding: 10px;
+}
+
+.containerSkills {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+}
+
+.colSkills {
+    display: table-cell; /* Make elements inside the container behave like table cells */
+}
+
+#contactContainer {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  relative: absolute;
+    z-index: 1000;
+}
+
+#contactMikeText {
+  font-family: Rock Salt;
+  font-size: 26px;
+}
+
+#contactMikeText li {
+  font-family: Roboto;
+  font-weight: 18px;
+}
+
+div.slide-slow {
+  width:100%;
+  overflow:hidden;
+}
+div.slide-slow div.inner {
+  animation: slide-slow 2s;
+  margin-top:0%;
+}
+
+@keyframes slide-slow {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+
+#aboutDiv2 {
+  /* padding: 0 20px; */
+}
+
+#aboutDiv2-box {
+margin-top: -30px;
+padding: 0;
+}
+
+#aboutDiv2-Mike {
+  background-color: rgba(255,255,255,.15);
+  border: 0px solid #f0f2f5;
+}
+
+#aboutDiv2-Mike-Quote {
+  padding: 0 40px;
+}
+
+#flowText-P {
+  font-size: 24px;
+  line-height: 1.75em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#flowText-Testimonials1,
+#flowText-Testimonials2,
+#flowText-Testimonials3 {
+  font-size: 21px;
+}
+
+.footer {
+position: sticky;
+background-color:#8f9eb3;
+width: 100%;
+font-size: 13px;
+text-align: center;
+}
+
+#footer-container-fluid.container-fluid {
+  background-color:#8f9eb3;
+  font-size: 13px;
+  text-align: center;
+}
+
+/* #gestaultContainer {
+  overflow: hidden;
+  height: 0px ;
+  width: 500px;
+} */
+
+#headerSummitSubText {
+  color: gray;
+  font-family: HelveticaNeue;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-top: -20px;
+  line-height: 1.1rem;
+}
+
+#innerSkillsTextBox1,
+#innerSkillsTextBox2,
+#innerSkillsTextBox3,
+#innerSkillsTextBox4,
+#innerSkillsTextBox5,
+#innerSkillsTextBox6,
+#innerSkillsTextBox7,
+#innerSkillsTextBox8,
+#innerSkillsTextBox9 {
+  margin: 0;
+  min-height: 100%;
+  padding: 0 15px;
+}
+
+#innerSkillsTextBox1 h5,
+#innerSkillsTextBox2 h5,
+#innerSkillsTextBox3 h5,
+#innerSkillsTextBox4 h5,
+#innerSkillsTextBox5 h5,
+#innerSkillsTextBox6 h5,
+#innerSkillsTextBox7 h5,
+#innerSkillsTextBox8 h5,
+#innerSkillsTextBox9 h5 {
+  color: darkred;
+  font-family: Rock Salt;
+  font-size: 19px;
+  letter-spacing: .08em;
+  line-height: 2.09rem;
+  padding: 0;
+  text-align: center;
+}
+
+#innerSkillsTextBox1 h6,
+#innerSkillsTextBox2 h6,
+#innerSkillsTextBox3 h6,
+#innerSkillsTextBox4 h6,
+#innerSkillsTextBox5 h6,
+#innerSkillsTextBox6 h6,
+#innerSkillsTextBox7 h6,
+#innerSkillsTextBox8 h6,
+#innerSkillsTextBox9 h6 {
+  color: #8f9eb3;
+  font-family: Oswald;
+  font-size: 22px;
+  font-weight: 200;
+  letter-spacing: .03em;
+  line-height: 1.65em;
+  margin-top: 30px;
+  padding: 0;
+}
+
+#jobTitle {
+  color: darkred;
+  font-family: HelveticaNeue-Thin, Arial, sans-serif;
+  font-size: 34px;
+  letter-spacing: .035em;
+  line-height: 2.0em;
+  margin-top: 20px;
+}
+
+.jumbotron {
+  background-color: rgba(0,0,0,.75) !important;
+  border-bottom-left-radius: 60px !important;
+  border-bottom-right-radius: 15px !important;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 330px;
+  padding: 20px 50px;
+  width: 100%;
+}
+
+h1#mikeName {
+  color: #000;
+  clear: both;
+  font-family: HelveticaNeue-Thin, Arial, sans-serif;
+  font-size: 70px;
+  font-weight: 400;
+  margin-top: 20px;
+  position: relative;
+  z-index: 5;
+}
+
+img#mike-picture {
+  background-color: rgba(255,255,255,.2);
+  border: 4px solid #f0f2f5;
+  border-radius: 100%;
+  box-shadow: 20px 20px 30px rgba(0,0,0,.5);
+  /* float: right; */
+  padding: 10px;
+  width: 200px;
+}
+
+.pageContainer {
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0;
+}
+
+.panel-heading1,
+.panel-heading2 {
+  background-color: #841a1a;
+  border-radius: 60px;
+  margin-left: 0;
+  margin-top: 40px;
+  padding: 10px;
+}
+
+.panel-heading {
+  background-color: rgba(0,0,0,.5);
+  margin-left: 0;
+  margin-top: 50px;
+  padding: 10px 20px;
+}
+
+.proto {
+  color: lightgray;
+  width: 100%;
+
+}
+
+.proto img {
+  box-shadow: 5px 5px 35px rgba(0,0,0,.5);
+  max-width: 90%;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#resumeBlock h4 {
+  color: #fff;
+  font-family: Oswald;
+  margin-left: 25px;
+  padding-top: 20px;
+}
+
+#resumeBlock h6 {
+  color: #8f9eb3;
+  margin-left: 25px;
+  margin-bottom: 30px;
+}
+
+#smi {
+  list-style: none;
+  padding: 0;
+}
+
+#smi > li {
+color: #fff;
+display: inline-block;
+font-size: 13px;
+/* line-height: 2.5em; */
+margin-bottom: 25px;
+text-align: center;
+}
+
+ul#smi a {
+  line-height: 3.0em;
+  color: #fff;
+}
+
+#smi-1 > li {
+  display: inline-block;
+  text-align: center;
+}
+
+#smi-div-icons-1 img {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  /*margin: 0 8px;*/
+  border-radius: 100%;
+  background-color: #fff;
+  padding: 5px;
+}
+
+#smi-img-icons0,
+#smi-img-icons1,
+#smi-img-icons2,
+#smi-img-icons3,
+#smi-img-icons4,
+#smi-img-icons5,
+#smi-img-icons6,
+#smi-img-icons7,
+#smi-img-icons8,
+#smi-img-icons9,
+#smi-img-icons10,
+#smi-img-icons11,
+#smi-img-icons12,
+#smi-img-icons13,
+#smi-img-icons14,
+#smi-img-icons15 {
+  background-color: #fff;
+  border: 1.5px solid #000;
+  border-radius: 100%;
+  margin-right: 5px;
+  width: 50px;
+}
+
+
+#app-img-table {
+  position: relative;
+  padding: 7px;
+  border-radius: 20px;
+  border: 1px solid #8f9eb3;
+  margin: 0 auto;
+  background-color: #000;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    padding: 4px;
+    border: 0;
+  }
+
+#testimonialBox1,
+#testimonialBox2,
+#testimonialBox3 {
+  border: 4px solid #cfd8dc;
+  border-radius: 24px;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+#testimonialDivContainer {
+  display: inline-flex;
+}
+
+#testimonialTextBlock1,
+#testimonialTextBlock2,
+#testimonialTextBlock3 {
+  display: flex;
+  padding: 30px;
+}
+
+#testimonialTextBlock1 h5,
+#testimonialTextBlock2 h5,
+#testimonialTextBlock3 h5 {
+  font-family: Oswald;
+  margin-right: 10px;
+  text-align: right;
+}
+
+#testimonialTextBlock1 h6,
+#testimonialTextBlock2 h6,
+#testimonialTextBlock3 h6 {
+  margin-right: 10px;
+  text-align: right;
+}
+
+@media only screen and (max-width: 1168px) {
+
+#innerSkillsTextBox {
+  padding: 0 15px !important;
+}
+
+
+}
+
+@media only screen and (max-width: 960px) {
+}
+
+@media only screen and (max-width: 768px) {
+
+#aboutDiv2 {
+  margin-left: 5px;
+  padding: 0 10px;
+  width: 100%;
+}
+
+#aboutDiv2-box {
+  padding: 0;
+}
+
+#aboutDiv2-Mike-Quote {
+  padding: 0;
+  margin-top: 5px;
+  margin-right: 0;
+}
+
+#aboutDiv1,
+#aboutDiv2,
+#headerRow,
+#tableRows1,
+#tableRows2,
+#tableRows3,
+#tableRows4,
+#tableRows5,
+#devCard1,
+#devCard2,
+#devCard3,
+#devCard4,
+#devCard5,
+#devCard6,
+#devCard7,
+#devCard8,
+#devCard9,
+#devCard10,
+#devCard11,
+#devCard12,
+#devCard13,
+#devCard14,
+#devCard15,
+#testimonialDivContainer,
+#testimonialTextBlock1,
+#testimonialTextBlock2,
+#testimonialTextBlock3 {
+  display: inline-block !important;
+  padding: 0;
+  }
+
+.card-title {
+  padding: 0;
+}
+
+#flowText-P {
+  font-size: 15px;
+}
+
+#flowText-Testimonials {
+  font-size: 16px;
+}
+
+#headerSummitSubText {
+  font-size: 18px;
+}
+
+#innerSkillsTextBox h6 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: .03em;
+  line-height: 1.35em;
+  margin-top: 30px;
+  padding: 0;
+}
+
+#jobTitle {
+  font-size: 18px;
+  margin-top: 140px;
+}
+
+.jumbotron {
+  /* border-radius: 0 !important;
+  border-bottom-left-radius: 40px !important;
+  border-bottom-right-radius: 8px !important; */
+  min-height: 286px;
+  padding: 10px 20px;
+}
+
+h1#mikeName {
+  font-family: Roboto Condensed;
+  font-size: 42px !important;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.panel-heading {
+  background-color: #841a1a;
+  border-bottom-left-radius: 20px;
+  margin-left: 10px;
+  margin-top: 0;
+  padding: 5px;
+}
+
+#smi-img-icons {
+  background-color: #fff;
+  border: 1.0px solid #fff;
+  margin-right: 3px;
+  width: 22px;
+}
+
+#testimonialBox1,
+#testimonialBox2,
+#testimonialBox3 {
+  padding: 8px;
+}
+}
+
+@media only screen and (max-width: 568px) {
+
+.jumbotron {
+  min-height: 260px;
+}
+}
